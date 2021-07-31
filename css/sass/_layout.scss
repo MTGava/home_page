@@ -1,0 +1,99 @@
+// MENU
+
+.menu{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 48px 16px;
+
+}
+
+@media screen and (max-width: 960px){
+    .menu-left{
+        display: none;
+    }
+    .menu-right{
+        display: none;
+    }
+}
+
+// COINTAINER
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.container{
+    
+    max-width: 980px;
+
+    margin: 0 auto;
+
+    margin-top: -50px;
+
+    padding: 24px 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero{
+    height: 90vh;
+}
+
+@media screen and (max-width: 960px){
+    .hero{
+        height: auto;
+    }
+    
+    .container{
+        flex-direction: column;
+    }
+}
+
+.container-item:nth-child(1){
+    flex-grow: 3;
+
+    margin: 40 px 0px;
+}
+
+.container-item:nth-child(2){
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px 0px;
+
+    img{
+        max-width: 300px;
+    }
+}
+
+.bg-hero{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
