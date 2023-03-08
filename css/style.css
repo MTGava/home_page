@@ -15,6 +15,17 @@ a {
   text-decoration: none;
 }
 
+body {
+  height: 100vh;
+  background-size: cover;
+  background-image: url('../img/background-image.png');
+  color: #FFF;
+}
+
+img.avatar{
+  border-radius: 50%;
+}
+
 .link {
   padding: 8px 18px;
   font-size: 24px;
@@ -86,7 +97,7 @@ h6 {
 }
 
 .mask {
-  background: linear-gradient(225deg, #E72A2A 100%, #6B0000 0%);
+  background: linear-gradient(225deg, #53A5F0 100%, #2D4CED 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -118,7 +129,7 @@ h6 {
   height: 120px;
   -webkit-transform: translate(-3%, -20%) rotate(45deg);
           transform: translate(-3%, -20%) rotate(45deg);
-  background: linear-gradient(225deg, #ED2D2D 0%, rgba(240, 83, 83, 0) 100%);
+  background: linear-gradient(225deg, #53A5F0 0%, rgba(240, 83, 83, 0) 100%);
   border-radius: 4x;
   -webkit-transition: .5s ease;
   transition: .5s ease;
@@ -839,7 +850,9 @@ body {
 }
 
 .container-item:nth-child(2) img {
-  max-width: 300px;
+  margin-bottom: 12rem;
+  margin-left: 6rem;
+  max-width: 18rem;
 }
 
 .bg-hero {
